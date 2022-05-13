@@ -1,0 +1,13 @@
+make all --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/nickandringa/Documents/HU/year_1/blok_4/Gameshop'
+ 
+make: Leaving directory `/Users/nickandringa/Documents/HU/year_1/blok_4/Gameshop'
+ 
+make: Entering directory `/Users/nickandringa/Documents/HU/year_1/blok_4/Gameshop'
+g++ -std=c++17 -Wall -o obj/Game.o -c src/Game.cpp
+ 
+g++ -std=c++17 -Wall -o obj/Person.o -c src/Person.cpp
+g++ -std=c++17 -Wall -o obj/main.o -c src/main.cpp
+g++ -std=c++17 -Wall -o main obj/Game.o obj/Person.o obj/main.o 
+make: Leaving directory `/Users/nickandringa/Documents/HU/year_1/blok_4/Gameshop'
+ 
